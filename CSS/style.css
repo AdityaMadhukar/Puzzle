@@ -1,0 +1,62 @@
+body { 
+    
+    background: linear-gradient(to bottom right,rgb(150, 251, 150),rgb(73, 243, 255)); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding: 2px; 
+}
+#table{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: linear-gradient(to bottom right, rgb(162, 105, 254),rgb(251, 121, 121));
+}
+td:hover {
+    background: linear-gradient(to bottom left, rgb(250, 255, 117),rgb(255, 132, 70));
+}
+#NewGame {
+    margin-left: 50%;
+    transform: translateX(-50%) ;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(244, 106, 76);
+    border-color: rgb(150, 251, 150);
+    border-radius: 75px;
+    transition: 0.2s;
+    box-shadow: 0px 4px 8px 0px;
+}
+
+#moves {
+    padding: 1px 3px 1px 3px;
+    width: 50px;
+    background-color: rgb(73, 243, 255);
+}
+#Time {
+    padding: 1px 3px 1px 3px;
+    width: 50px;
+    background-color: rgb(73, 243, 255);
+}
+#rows {
+    border-radius: 20px;
+    border-color: rgb(150, 251, 150);
+    background-color: rgb(73, 243, 255);
+}
+#columns {
+    border-radius: 20px;
+    border-color: rgb(150, 251, 150);
+    background-color: rgb(73, 243, 255);
+}
+.Button {
+    border-radius: 40px;
+    border-color: rgb(150, 251, 150);
+    box-shadow: 0px 1px 2px 0px;
+    width: 80px;
+    height: 20px;
+    background-color: aqua;
+}

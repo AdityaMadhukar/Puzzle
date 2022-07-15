@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>PUZZLE</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    
+    <table id="table">
+    </table>
+    <br /><input type="button" id="NewGame" value="Start New Game"><br /><br />
+    No. of Rows <input type="text" id="rows" value="4" size="1"><br /><br />
+    No. of Columns <input type="text" id="columns" value="4" size="1"><br /><br />
+    Number Of Moves: <span id="moves">0</span><br />
+    Time:<spna id="Time">0</spna><br /><br />
+    <input type="button" id="Original" class="Button" value="Original"> Swap Blank cell with adjecent cells.<br /><br />
+    <input type="button" id="Freeze" class="Button" value="Freeze"> Freezes a random cell for 30 seconds.<br /><br />
+    <input type="button" id="Rook1" class="Button" value="Rook1"> Swap Blank cell with a cell in the same row or column.<br /><br />
+    <input type="button" id="Rook2" class="Button" value="Rook2"> Slide Blank cell along the row or column.<br /><br />
+    <input type="button" id="Bishop" class="Button" value="Bishop"> Swap Blank cell with any diagonal cell.<br /><br />
+    <input type="button" id="Queen" class="Button" value="Queen"> Swap Blank cell with any diagonal cell or a cell in the same row or column.
+
+    <script src="JS/javascript.js"></script>
+</body>
