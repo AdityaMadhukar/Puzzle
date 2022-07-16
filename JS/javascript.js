@@ -15,7 +15,6 @@ var moves=0;
         document.getElementById("Original").addEventListener("click",function(){z=1;startNewGame();});
         document.getElementById("Rook1").addEventListener("click",function(){z=2;startNewGame();});
         document.getElementById("Rook2").addEventListener("click",function(){z=3;startNewGame();});
-        document.getElementById("Bishop").addEventListener("click",function(){z=4;startNewGame();});
         document.getElementById("Queen").addEventListener("click",function(){z=5;startNewGame();});
         document.getElementById("Freeze").addEventListener("click",function(){z=6;startNewGame();});
         
@@ -182,15 +181,7 @@ var moves=0;
                     }
                 }
             }
-            if(z==4)
-            {
-                rd=Math.abs(r-row);
-                cd=Math.abs(c-column);
-                if(rd==cd)
-                {
-                    Move(row,column,r,c);
-                }
-            }
+            
             if(z==5)
             {
                 rd=Math.abs(r-row);
