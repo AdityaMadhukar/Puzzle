@@ -228,7 +228,7 @@ var moves=0;
                     k=i*columns+j+1;
                     if (A[i][j] != k)
                     {
-                        if(k!=16)
+                        if(k!=rows*columns)
                         {
                             flag=1;
                         }
